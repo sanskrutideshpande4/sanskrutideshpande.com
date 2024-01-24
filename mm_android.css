@@ -1,0 +1,451 @@
+:root {
+    /*--ios-accent: #AD8CFF;*/
+    --ios-accent: #4378CD;
+    /*--ios-background: #AAADFF;*/
+    /*--ios-background: #6AA3FF;*/
+    --ios-background: #3B5A8D;
+    --ios-highlight: #c4cedd;
+}
+
+.ios-accent {
+    color: var(--ios-accent);
+}
+
+.ios-background {
+    background: var(--ios-background);
+}
+
+mark {
+    background: none;
+    border-bottom: 2px solid var(--ios-accent);
+}
+
+
+.android-display-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.ios-wireframe-image {
+    width: 100%;
+}
+
+.ios-mockup-image {
+    width: 100%;
+}
+
+
+
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: block;
+        width: 100%;
+    }
+
+    .category-container {
+        width: 100%;
+        margin: 15px 0;
+        background: var(--light2);
+        border-radius: 4px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+    .android-display-container {
+        display: block;
+        margin: 30px 0;
+    }
+
+    .android-display-text {
+        width: 100%;
+    }
+
+    .android-display-image-container {
+        width: 100%;
+        border: 1px solid var(--grey-60);
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .android-display-title {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .ios-wireframe-row {
+        display: block;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 20px 10px;
+    }
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 22px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+    .android-display-container {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .android-display-text {
+        width: 50%;
+    }
+
+    .android-display-image-container {
+        width: 50%;
+    }
+
+    .android-display-title {
+        font-weight: 500;
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 10px;
+    }
+
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+    .categories {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    .category-left {
+        margin-left: 0 !important;
+    }
+
+    .category-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+    .android-display-container {
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .android-display-text {
+        width: 50%;
+    }
+
+    .android-display-image-container {
+        width: 50%;
+    }
+
+    .android-display-title {
+        font-weight: 500;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
+    }
+
+
+}
+
+
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .categories {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 50%;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 24px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+    .android-display-container {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .android-display-text {
+        width: 50%;
+    }
+
+    .android-display-image-container {
+        width: 50%;
+    }
+
+    .android-display-title {
+        font-weight: 500;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 60px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
+    }
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .categories {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .categories-row {
+        display: flex;
+        width: 50%;
+    }
+
+    .category-container {
+        width: 50%;
+        margin: 0 10px;
+        background: var(--light2);
+        border-radius: 8px;
+        padding: 18px;
+    }
+
+    .category-number {
+        font-weight: 800;
+        font-size: 28px;
+    }
+
+    .category-title {
+        font-weight: 500;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .category-extreme-left {
+        margin-left: 0 !important;
+    }
+
+    .category-extreme-right {
+        margin-right: 0 !important;
+    }
+
+    ul {
+        padding-left: 20px !important;
+    }
+
+    .android-display-container {
+        display: flex;
+        align-items: center;
+        margin: 40px 0;
+    }
+
+    .android-display-text {
+        width: 50%;
+    }
+
+    .android-display-image-container {
+        width: 50%;
+    }
+
+    .android-display-title {
+        font-weight: 500;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .ios-wireframe-row {
+        display: flex;
+        align-items: center;
+        margin: 80px 0;
+    }
+
+    .ios-wireframe-container {
+        margin: 0 20px;
+    }
+
+}
