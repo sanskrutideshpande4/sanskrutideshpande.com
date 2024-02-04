@@ -1,0 +1,191 @@
+:root {
+    --pathology-background: #2196f3;
+    --pathology-image-background: #f5f5f5;
+    --pathology-accent: #2196f3;
+    --pathology-highlight: #bce0fb;
+}
+
+
+.pathology-background {
+    background: var(--pathology-background);
+}
+
+.pathology-accent {
+    color: var(--pathology-accent);
+}
+
+mark {
+    background: none;
+    border-bottom: 2px solid var(--pathology-accent);
+}
+
+.pathology-map-view-image {
+    width: 100%;
+}
+
+.pathology-solution-image {
+    width: 100%;
+}
+
+
+
+
+/*mobile breakpoint*/
+@media (max-width: 499px) {
+
+
+    .pathology-hero-section {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .pathology-display-image {
+        width: 100%;
+        border-radius: 4px;
+        background: var(--pathology-image-background);
+        margin-top: 20px;
+    }
+
+    .map-view-container {
+        display: block;
+    }
+
+    .map-view-text-container {
+        width: 100%;
+    }
+
+    .map-view-image-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+}
+
+/*tablet breakpoint*/
+@media (min-width: 500px) and (max-width: 799px) {
+
+    .pathology-hero-section {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .pathology-display-image {
+        width: 100%;
+        border-radius: 6px;
+        background: var(--pathology-image-background);
+        margin-top: 20px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 70%;
+        padding-right: 40px;
+    }
+
+    .map-view-image-container {
+        width: 30%;
+    }
+
+}
+
+
+/*large tablet breakpoint*/
+@media (min-width: 800px) and (max-width: 1099px) {
+
+
+    .pathology-hero-section {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .pathology-display-image {
+        width: 100%;
+        border-radius: 6px;
+        background: var(--pathology-image-background);
+        margin-top: 30px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 70%;
+        padding-right: 40px;
+    }
+
+    .map-view-image-container {
+        width: 30%;
+    }
+
+}
+
+
+
+/*desktop breakpoint*/
+@media (min-width: 1100px) and (max-width: 1499px) {
+
+    .pathology-hero-section {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .pathology-display-image {
+        width: 100%;
+        border-radius: 6px;
+        background: var(--pathology-image-background);
+        margin-top: 40px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 70%;
+        padding-right: 40px;
+    }
+
+    .map-view-image-container {
+        width: 30%;
+    }
+
+
+}
+
+/*large desktop breakpoint*/
+@media (min-width: 1500px) {
+
+    .pathology-hero-section {
+        padding-top: 60px;
+    }
+
+    .pathology-display-image {
+        width: 100%;
+        border-radius: 8px;
+        background: var(--pathology-image-background);
+        margin-top: 40px;
+    }
+
+    .map-view-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .map-view-text-container {
+        width: 70%;
+        padding-right: 40px;
+    }
+
+    .map-view-image-container {
+        width: 30%;
+    }
+
+}
